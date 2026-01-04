@@ -42,3 +42,29 @@ body {
     color: red;
     font-weight: bold;
 }
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.avatar-url {
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+    border: none;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.company {
+    font-size: 1.5rem;
+}
+
+.twitter-username {
+    font-size: 1.5rem;
+}
